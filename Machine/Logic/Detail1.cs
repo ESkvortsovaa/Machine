@@ -20,5 +20,10 @@ namespace Logic
             }
         }
 
+        public override string ToString()
+        {
+            return "Деталь1 " + Id;
+        }
+
     }
 }

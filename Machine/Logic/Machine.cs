@@ -14,7 +14,7 @@ namespace Logic
         {
             while (true)
             {
-                Thread.Sleep(5000);
+                Thread.Sleep(3000);
                 CreateDetail();
             }
         }

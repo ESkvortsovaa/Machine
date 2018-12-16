@@ -9,5 +9,7 @@ namespace Logic.Interface
     public interface IDetail
     {
         int Id { get;}
+
+
     }
 }

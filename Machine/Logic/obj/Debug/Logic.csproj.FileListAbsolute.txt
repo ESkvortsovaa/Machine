@@ -1,0 +1,6 @@
+C:\Users\asus\source\repos\Machine\Logic\bin\Debug\Logic.dll
+C:\Users\asus\source\repos\Machine\Logic\bin\Debug\Logic.pdb
+C:\Users\asus\source\repos\Machine\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\asus\source\repos\Machine\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Machine\Logic\obj\Debug\Logic.dll
+C:\Users\asus\source\repos\Machine\Logic\obj\Debug\Logic.pdb

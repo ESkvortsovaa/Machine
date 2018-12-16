@@ -1,0 +1,12 @@
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.csprojResolveAssemblyReference.cache
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.Form1.resources
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.csproj.GenerateResource.Cache
+C:\Users\asus\source\repos\Machine\Machine\bin\Debug\Machine.exe.config
+C:\Users\asus\source\repos\Machine\Machine\bin\Debug\Machine.exe
+C:\Users\asus\source\repos\Machine\Machine\bin\Debug\Machine.pdb
+C:\Users\asus\source\repos\Machine\Machine\bin\Debug\Logic.dll
+C:\Users\asus\source\repos\Machine\Machine\bin\Debug\Logic.pdb
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.Properties.Resources.resources
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.exe
+C:\Users\asus\source\repos\Machine\Machine\obj\Debug\Machine.pdb

@@ -11,13 +11,24 @@ namespace Logic
     {
         Loader Loader = new Loader();
         Machine Machine = new Machine();
+        public Stock Stock = new Stock();
+        /// <summary>
+        /// для создания
+        /// </summary>
+        public event Action DetailCreated;
+
+        /// <summary>
+        /// Для удаления
+        /// </summary>
+        public event Action DetailRemoved;
         
         public void Work()
         {
-            Machine.DetailCreated += Loader.RegisterObject;
+            Machine.DetailCreated += Stock.Add;
             Thread MachineThread = new Thread(new ThreadStart(Machine.Start));
             MachineThread.Start();
 
+            Loader.TakeDetail += Stock.RemoveDetail;
             Thread LoaderThread = new Thread(new ThreadStart(Loader.Start));
             LoaderThread.Start();
         }

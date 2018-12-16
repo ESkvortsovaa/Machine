@@ -10,31 +10,16 @@ namespace Logic
 {
    public class Loader
     {
-        public Stock Stock = new Stock();
 
         public void Start()
         {
             while (true)
             {
                 Thread.Sleep(5000);
-                PutOut();
+                TakeDetail();
             }
-        }
+        }       
 
-        public void PutOut()
-        {
-            if (!Stock.IsEmpty())
-            {
-                Stock.RemoveDetail();   
-            }
-        }
-
-        public void RegisterObject(IDetail detail)
-        {
-            //lock (this)
-            {
-                Stock.Add(detail);
-            }
-        }
+        public event Action TakeDetail;
     }
 }
